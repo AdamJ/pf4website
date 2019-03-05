@@ -1,0 +1,25 @@
+// Variables
+@import './application/variables';
+
+// PatternFly 4
+/* stylelint-disable */
+@import '../node_modules/@patternfly/patternfly/patternfly.scss';
+@import '../node_modules/@patternfly/patternfly/patternfly-addons.scss';
+
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/regular.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/solid.scss';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/brands.scss';
+/* stylelint-enable */
+
+// Fonts
+@import './application/fonts';
+
+// Utilities
+@import './application/utilities';
+
+// Components
+@import './application/components';
+
+// Pages
+@import './application/pages';

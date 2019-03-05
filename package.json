@@ -1,0 +1,45 @@
+{
+  "name": "PF4Website",
+  "version": "0.0.0",
+  "description": "PF4 Website Prototype",
+  "homepage": "https://www.adamjolicoeur.com/PF4website",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp serve"
+  },
+  "keywords": [
+    "prototype",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindreeper2420/PF4website"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "author": "Adam J. Jolicoeur",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "autoprefixer": "9.4.8",
+    "browser-sync": "2.26.3",
+    "cssnano": "4.1.10",
+    "gulp": "3.9.1",
+    "gulp-clean": "0.4.0",
+    "gulp-cssmin": "0.2.0",
+    "gulp-header": "2.0.7",
+    "gulp-notify": "3.2.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-postcss": "8.0.0",
+    "gulp-rename": "1.4.0",
+    "gulp-sass": "4.0.2",
+    "gulp-sourcemaps": "2.6.5",
+    "gulp-stylelint": "8.0.0",
+    "stylelint": "9.10.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.7.2",
+    "@patternfly/patternfly": "1.0.218"
+  }
+}
