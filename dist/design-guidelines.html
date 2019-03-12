@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!DOCTYPE html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PF4 Website Prototype</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="css/site.min.css">
+  </head>
+
+  <body>
+    <div class="pf-c-background-image"></div>
+    <div class="pf-c-page pf-u-h-100vh">
+      <header role="banner" class="pf-c-page__header">
+        <div class="pf-c-page__header-brand">
+          <a class="pf-c-page__header-brand-link">
+            <img class="pf-c-brand" src="node_modules/@patternfly/patternfly/assets/images/pf_logo_color.svg" alt="PatternFly logo">
+          </a>
+        </div>
+        <div class="pf-c-page__header-nav">
+          <nav aria-label="Global" class="pf-c-nav" id="horizontal-navigation">
+            <ul class="pf-c-nav__horizontal-list rh-site-header">
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="index.html">
+                  Get Started
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a aria-current="page" class="pf-c-nav__link pf-m-current" href="design-guidelines.html">
+                  Design Guidelines
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Documentation
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Community
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="pf-c-page__header-tools">
+          <img class="pf-c-avatar" src="node_modules/@patternfly/patternfly/assets/images/img_avatar.svg" alt="Avatar Image" />
+        </div>
+      </header>
+      <div class="pf-c-page__sidebar" style="padding-left: 24px; box-shadow: none;">
+        <div class="pf-u-pl-xs">
+          <div class="pf-c-dropdown">
+            <button class="pf-c-dropdown__toggle" id="dropdown-example-collapsed-button" aria-expanded="false">
+              <span class="pf-c-dropdown__toggle-text">
+                HTML
+              </span>
+              <i class="fas fa-caret-down pf-c-dropdown__toggle-icon" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <nav class="pf-c-nav">
+          <ul class="pf-c-nav__list">
+            <li class="pf-c-nav__item pf-m-expandable pf-m-expanded pf-m-current">
+              <a href="#" class="pf-c-nav__link" id="expandable-nav-link2" aria-expanded="false">
+                Components
+                <span class="pf-c-nav__toggle">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+              <section class="pf-c-nav__subnav" aria-labelledby="expandable-nav-link1">
+                <ul class="pf-c-nav__simple-list">
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link">
+                      Alert
+                    </a>
+                  </li>
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link">
+                      Backdrop
+                    </a>
+                  </li>
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link">
+                      Background Image
+                    </a>
+                  </li>
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link">
+                      Badge
+                    </a>
+                  </li>
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link pf-m-current" aria-current="page">
+                      Buttons
+                    </a>
+                  </li>
+                  <li class="pf-c-nav__item">
+                    <a href="#" class="pf-c-nav__link">
+                      Card
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </li>
+            <li class="pf-c-nav__item pf-m-expandable">
+              <a href="#" class="pf-c-nav__link" aria-expanded="false">
+                Layouts
+                <span class="pf-c-nav__toggle">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+            <li class="pf-c-nav__item pf-m-expandable">
+              <a href="#" class="pf-c-nav__link" aria-expanded="false">
+                Demos
+                <span class="pf-c-nav__toggle">
+                  <i class="fas fa-angle-right" aria-hidden="true"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <main role="main" class="pf-c-page__main">
+        <section class="pf-c-page__main-section pf-m-light__custom">
+          <div class="pf-c-content">
+            <div class="pf-l-split pf-m-gutter">
+              <div class="pf-l-split__item pf-m-main">
+                <h1>Buttons</h1>
+                <h2>About</h2>
+                <p>
+                  A button should represent an action a user can take, like submitting a form, cancelling a process, or creating a new object. When the user clicks the button, the associated action should be performed immediately.
+                </p>
+                <h2>Page Contents</h2>
+                <button class="pf-c-button pf-m-link">Button variants</button>
+                <button class="pf-c-button pf-m-link">Block buttons</button>
+                <button class="pf-c-button pf-m-link">Links</button>
+                <button class="pf-c-button pf-m-link">Supporting documentation</button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pf-c-page__main-section pf-m-light__custom">
+          <div class="pf-c-content">
+            <h2>Examples</h2>
+            <div class="pf-c-card">
+              <div class="pf-c-card__header">
+                <div class="pf-u-display-flex pf-u-justify-content-space-between">
+                  <span class="pf-c-title pf-m-xl">Button Variants</span>
+                  <div class="pf-u-display-flex pf-u-align-items-center">
+                    <i class="fas fa-mobile-alt fa-xs"></i>
+                    <i class="fas fa-mobile-alt fa-sm pf-u-ml-sm"></i>
+                    <i class="fas fa-tablet-alt pf-u-ml-sm"></i>
+                    <i class="fas fa-tv pf-u-ml-sm"></i>
+                    <i class="fas fa-tv pf-u-ml-sm"></i>
+                    <i class="fas fa-external-link-alt pf-u-ml-sm"></i>
+                    <i class="fas fa-external-link-alt pf-u-ml-sm"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="pf-c-card__body">
+              </div>
+              <div class="pf-c-card__footer">
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="js/site.js"></script>
+  </body>
+
+</html>
