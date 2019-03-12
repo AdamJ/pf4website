@@ -31,3 +31,11 @@ $block: '.rh';
     }
   }
 }
+
+.pf-c-nav__simple-list .pf-c-nav__link {
+  border-left: 4px solid transparent;
+  &.pf-m-current {
+    background-color: #f8f8f8;
+    border-left-color: #0066cc;
+  }
+}
