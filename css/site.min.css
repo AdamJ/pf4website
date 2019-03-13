@@ -18370,8 +18370,21 @@ a,
 .pf-c-button.pf-m-link {
   font-weight: 700; }
 
+/* stylelint disable */
+.pf-c-title.pf-m-5xl {
+  font-size: 3rem;
+  font-weight: var(--pf-c-title--m-4xl--FontWeight);
+  line-height: var(--pf-c-title--m-4xl--LineHeight); }
+
+/* stylelint enable */
 .pf-c-page__main-section.pf-m-light__custom {
   --pf-c-page__main-section--BackgroundColor: #f8f8f8; }
+
+.pf4-c-background-image {
+  --pf4-c-image--Background: url("../assets/images/hero_background.svg");
+  background-image: var(--pf4-c-image--Background);
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .pf-c-page__header {
   background-color: #000; }

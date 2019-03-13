@@ -1,3 +1,10 @@
 .pf-c-page__main-section.pf-m-light__custom {
   --pf-c-page__main-section--BackgroundColor: #f8f8f8;
 }
+.pf4-c-background-image {
+  --pf4-c-image--Background: url("#{$pf-global--image-path}/hero_background.svg");
+
+  background-image: var(--pf4-c-image--Background);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

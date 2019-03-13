@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="657px" viewBox="0 0 1440 657" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>HERO</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2767B2" offset="0%"></stop>
+            <stop stop-color="#03B9E4" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9787368%" y1="3.15251895%" x2="49.9787368%" y2="100.372269%" id="linearGradient-2">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="55.2976774%" y1="46.4431407%" x2="-1.35799305%" y2="84.5348733%" id="linearGradient-3">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="80.120523%" y1="8.93110795%" x2="13.6871364%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="85.3430702%" y1="1.17665538%" x2="12.0500476%" y2="101.700448%" id="linearGradient-5">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="33.1763797%" y1="89.869463%" x2="71.1309857%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="11.7573151%" y1="100.944417%" x2="86.7797811%" y2="0.845709018%" id="linearGradient-7">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9787368%" y1="3.15251895%" x2="49.9787368%" y2="100.372269%" id="linearGradient-8">
+            <stop stop-color="#54EEFF" offset="0%"></stop>
+            <stop stop-color="#1C75BC" stop-opacity="0.2" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="PATTERNFLY" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-Desktop-HOME-PAGE" transform="translate(0.000000, -60.000000)">
+            <g id="HERO" transform="translate(-81.000000, 60.000000)">
+                <rect id="Background-gradient" fill="url(#linearGradient-1)" x="81.2495017" y="63" width="1440" height="593"></rect>
+                <g id="RT-Lines" transform="translate(1272.249502, 0.854703)" stroke-linecap="square">
+                    <path d="M1.2504983,0.145296645 L1.2504983,653.145297" id="light-Line" stroke="url(#linearGradient-2)" stroke-width="2"></path>
+                    <path d="M22.2504983,0.145296645 L22.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M42.2504983,0.145296645 L42.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M63.2504983,0.145296645 L63.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M83.2504983,0.145296645 L83.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M104.250498,0.145296645 L104.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M125.250498,0.145296645 L125.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M145.250498,0.145296645 L145.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M166.250498,0.145296645 L166.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M186.250498,0.145296645 L186.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M207.250498,0.145296645 L207.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M227.250498,0.145296645 L227.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M248.250498,0.145296645 L248.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                </g>
+                <g id="LT-Lines" transform="translate(81.249502, 0.854703)" stroke-linecap="square">
+                    <path d="M0.250498297,0.145296645 L0.250498297,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M21.2504983,0.145296645 L21.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M41.2504983,0.145296645 L41.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M62.2504983,0.145296645 L62.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M83.2504983,0.145296645 L83.2504983,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M103.250498,0.145296645 L103.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M124.250498,0.145296645 L124.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M145.250498,0.145296645 L145.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M165.250498,0.145296645 L165.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M186.250498,0.145296645 L186.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M207.250498,0.145296645 L207.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M227.250498,0.145296645 L227.250498,653.145297" id="Line" stroke="#03B9E4" opacity="0.8"></path>
+                    <path d="M248.250498,0.145296645 L248.250498,653.145297" id="Line" stroke="url(#linearGradient-2)" stroke-width="2"></path>
+                </g>
+                <g id="HR-Lines" transform="translate(80.249502, 595.854703)" stroke="#03B9E4" stroke-linecap="square">
+                    <path d="M0.750498297,36.6452966 L1440.7505,36.6452966" id="Line"></path>
+                    <path d="M0.750498297,18.6452966 L1440.7505,18.6452966" id="Line"></path>
+                    <path d="M0.750498297,0.645296645 L1440.7505,0.645296645" id="Line"></path>
+                </g>
+                <g id="DIA-Lines" transform="translate(1046.000000, 98.000000)" stroke-linecap="square">
+                    <path d="M97,557 L475,246" id="Line-2" stroke="url(#linearGradient-3)" stroke-width="2"></path>
+                    <path d="M32,556 L475,35.5" id="Line-2" stroke="url(#linearGradient-4)"></path>
+                    <path d="M0,556 L475,0" id="Line-2" stroke="url(#linearGradient-5)" stroke-width="2"></path>
+                </g>
+                <g id="DIA-Lines" transform="translate(330.149461, 361.363695) rotate(-261.000000) translate(-330.149461, -361.363695) translate(75.649461, 68.363695)" stroke-linecap="square">
+                    <path d="M156.815355,560.726868 L508.408175,19.0567755" id="Line-2" stroke="url(#linearGradient-6)" stroke-width="2"></path>
+                    <path d="M0.786855093,585.320021 L506.501825,0.628106691" id="Line-2" stroke="url(#linearGradient-7)"></path>
+                </g>
+                <path d="M81.2495017,543.854703 L488.749502,63.8547034" id="Line-2" stroke="url(#linearGradient-8)" stroke-width="2" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
