@@ -18386,7 +18386,24 @@ a,
   height: 100%;
   background-image: var(--pf4-c-image--Background), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%);
   background-repeat: no-repeat, no-repeat;
-  background-position: top, right; }
+  background-position: top, right;
+  /* stylelint-disable */
+  /* stylelint-enable */ }
+  @media (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-image {
+      background-image: none, linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%); } }
+  @media (min-width: 576px) {
+    .pf4-c-background-image {
+      background-size: contain;
+      background-image: url("../assets/images/aboutPF4Lines.svg"), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%); } }
+  @media (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-image {
+      background-image: url("../assets/images/aboutPF4Lines.svg"), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%);
+      background-size: cover; } }
+  @media (min-width: 992px) {
+    .pf4-c-background-image {
+      background-image: var(--pf4-c-image--Background), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%);
+      background-size: cover; } }
 
 .pf4-c-background-image-principles {
   background-color: transparent;
