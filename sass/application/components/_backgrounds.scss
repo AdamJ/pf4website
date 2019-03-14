@@ -1,10 +1,115 @@
 .pf-c-page__main-section.pf-m-light__custom {
   --pf-c-page__main-section--BackgroundColor: #f8f8f8;
 }
+
 .pf4-c-background-image {
-  --pf4-c-image--Background: url("#{$pf-global--image-path}/hero_background.svg");
+  --pf4-c-image--Background: url("#{$pf-global--image-path}/homeHeroLines.svg");
+
+  width: 100%;
+  height: 100%;
+  background-image: var(--pf4-c-image--Background), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, right;
+
+  // /* stylelint-disable */
+  // @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-image: none;
+  // }
+
+  // @media (min-width: $pf-global--breakpoint--sm) {
+  //   background-size: contain;
+  //   background-image: url("#{$pf-global--image-path}/aboutPF4Lines.svg");
+  // }
+
+  // @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-image: url("#{$pf-global--image-path}/aboutPF4Lines.svg");
+  //   background-size: cover;
+  // }
+
+  // @media (min-width: $pf-global--breakpoint--lg) {
+  //   background-image: var(--pf4-c-image--Background);
+  //   background-size: cover;
+  // }
+  // /* stylelint-enable */
+  // background-repeat: no-repeat;
+}
+
+.pf4-c-background-image-principles {
+  // --pf4-c-image--Background: url("#{$pf-global--image-path}/homeHeroLines.svg");
+
+  background-color: transparent;
+  &::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #03b9e4, #2767b2);
+    z-index: -1;
+  }
 
   background-image: var(--pf4-c-image--Background);
-  background-size: contain;
+
+  /* stylelint-disable */
+  @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+    (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+    background-image: none;
+  }
+
+  @media (min-width: $pf-global--breakpoint--sm) {
+    background-size: contain;
+  }
+
+  @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+    (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+    background-size: cover;
+  }
+
+  @media (min-width: $pf-global--breakpoint--lg) {
+    background-size: cover;
+  }
+  /* stylelint-enable */
+  background-repeat: no-repeat;
+}
+
+.pf4-c-background-lines {
+  --pf4-c-image--Background-lines: url("#{$pf-global--image-path}/aboutPF4Lines.svg");
+
+  background-color: transparent;
+  // &::after {
+  //   position: absolute;
+  //   content: '';
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 0;
+  //   right: 0;
+  //   background: linear-gradient(to bottom, #2767B2, #03B9E4);
+  //   z-index: -1;
+  // }
+
+  background-image: var(--pf4-c-image--Background-lines);
+
+  /* stylelint-disable */
+  @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+    (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+    background-image: none;
+  }
+
+  @media (min-width: $pf-global--breakpoint--sm) {
+    background-size: contain;
+  }
+
+  @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+    (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+    background-size: cover;
+  }
+
+  @media (min-width: $pf-global--breakpoint--lg) {
+    background-size: cover;
+  }
+  /* stylelint-enable */
   background-repeat: no-repeat;
 }

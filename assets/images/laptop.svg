@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="301px" height="370px" viewBox="0 0 301 370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>laptop</title>
-    <desc>Created with Sketch.</desc>
-    <g id="PATTERNFLY" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="4-Desktop-HOME-PAGE" transform="translate(-888.000000, -1057.000000)">
-            <g id="WHY-PF4" transform="translate(845.000000, 1057.000000)">
-                <g id="laptop" transform="translate(43.488000, 0.000000)">
-                    <g id="Group-25" transform="translate(119.512000, 0.000000)">
-                        <polyline id="Fill-22" fill="#B2B3AF" points="177.786 96.018 171.739 99.35 171.739 252.26 177.786 248.928 177.786 96.018"></polyline>
-                        <polyline id="Fill-24" fill="#ECEDE8" points="0.415 3.781 171.739 99.35 177.786 96.018 6.462 0.449 0.415 3.781"></polyline>
-                    </g>
-                    <polyline id="Fill-1" fill="#A6B1B4" points="300.316 302.206 183.277 369.779 16.078 273.246 133.117 205.674 300.316 302.206"></polyline>
-                    <polyline id="Fill-26" fill="#DADAD3" points="171.324 324.64 -5.68434189e-14 229.071 -5.68434189e-14 223.589 171.324 319.158 171.324 324.64"></polyline>
-                    <polyline id="Fill-27" fill="#B2B3AF" points="297.298 248.277 297.298 253.759 171.324 324.64 171.324 319.158 297.298 248.277"></polyline>
-                    <polyline id="Fill-28" fill="#DADAD3" points="119.927 156.691 119.927 3.781 291.251 99.35 291.251 252.26 119.927 156.691"></polyline>
-                    <polyline id="Fill-29" fill="#0D1313" points="125.248 154.91 125.248 11.498 285.93 101.131 285.93 244.543 125.248 154.91"></polyline>
-                    <polyline id="Fill-30" fill="#ECEDE8" points="291.251 252.26 171.324 319.158 -5.68434189e-14 223.589 119.927 156.691 291.251 252.26"></polyline>
-                    <polyline id="Fill-31" fill="#97CBE6" points="82.113 202.291 203.301 269.952 191.644 276.455 70.456 208.794 82.113 202.291"></polyline>
-                    <polyline id="Fill-32" fill="#97CBE6" points="69.493 209.331 190.681 276.992 179.026 283.493 57.838 215.832 69.493 209.331"></polyline>
-                    <polyline id="Fill-33" fill="#97CBE6" points="119.966 181.176 241.154 248.837 229.501 255.338 108.312 187.676 119.966 181.176"></polyline>
-                    <polyline id="Fill-34" fill="#97CBE6" points="94.729 195.254 215.918 262.915 204.265 269.415 83.076 201.754 94.729 195.254"></polyline>
-                    <polyline id="Fill-35" fill="#97CBE6" points="132.58 174.139 253.774 241.797 242.118 248.3 120.93 180.638 132.58 174.139"></polyline>
-                    <polyline id="Fill-36" fill="#97CBE6" points="107.349 188.214 228.537 255.875 216.881 262.377 95.692 194.716 107.349 188.214"></polyline>
-                    <polyline id="Fill-37" fill="#97CBE6" points="134.991 262.821 109.075 277.278 72.05 256.625 97.967 242.168 134.991 262.821"></polyline>
-                    <polyline id="Fill-38" fill="#323431" points="285.93 221.207 285.93 244.543 125.248 155.617 125.248 42.7 285.93 221.207"></polyline>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 306.13 379.22" style="enable-background:new 0 0 306.13 379.22;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ACB8C0;}
+	.st1{fill:#B9B9B9;}
+	.st2{fill:#EBECEC;}
+	.st3{fill:#DDDDDB;}
+	.st4{fill:#091317;}
+	.st5{fill:#03B9E4;}
+	.st6{fill:#393939;}
+</style>
+<polygon class="st0" points="300.13,303.94 178.95,373.9 5.82,273.95 127.01,203.98 "/>
+<polygon class="st1" points="303.12,100.14 297.07,103.47 297.07,256.38 303.12,253.05 "/>
+<polygon class="st2" points="125.74,7.91 297.07,103.47 303.12,100.14 131.79,4.57 "/>
+<polygon class="st3" points="177.14,328.77 5.82,233.2 5.82,227.71 177.14,323.28 "/>
+<polygon class="st1" points="303.12,252.4 303.12,257.88 177.14,328.77 177.14,323.28 "/>
+<polygon class="st3" points="125.74,160.82 125.74,7.91 297.07,103.47 297.07,256.38 "/>
+<polygon class="st4" points="131.07,159.04 131.07,15.62 291.75,105.26 291.75,248.67 "/>
+<polygon class="st2" points="297.07,256.38 177.14,323.28 5.82,227.71 125.74,160.82 "/>
+<g>
+	<polygon class="st5" points="87.93,206.42 209.12,274.08 197.46,280.58 76.27,212.92 	"/>
+	<polygon class="st5" points="75.31,213.46 196.5,281.12 184.84,287.62 63.66,219.96 	"/>
+	<polygon class="st5" points="125.78,185.3 246.97,252.96 235.32,259.46 114.13,191.8 	"/>
+	<polygon class="st5" points="100.55,199.38 221.74,267.04 210.08,273.54 88.89,205.88 	"/>
+	<polygon class="st5" points="138.4,178.26 259.59,245.92 247.94,252.42 126.75,184.76 	"/>
+	<polygon class="st5" points="113.17,192.34 234.36,260 222.7,266.5 101.51,198.84 	"/>
+	<polygon class="st5" points="140.81,266.95 114.89,281.4 77.87,260.75 103.79,246.29 	"/>
+</g>
+<polygon class="st6" points="291.75,225.33 291.75,248.67 131.07,159.74 131.07,46.83 "/>
 </svg>

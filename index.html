@@ -12,55 +12,66 @@
 
   <body>
     <div class="pf-c-page pf-u-h-100vh">
+      <a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">
+        Skip to content
+      </a>
+      <header role="banner" class="pf-c-page__header">
+        <div class="pf-c-page__header-brand">
+          <a href="index.html" class="pf-c-page__header-brand-link">
+            <img class="pf-c-brand" src="assets/images/pf_logo_color.svg" alt="PatternFly logo">
+          </a>
+        </div>
+        <div class="pf-c-page__header-nav">
+          <nav aria-label="Global" class="pf-c-nav" id="horizontal-navigation">
+            <ul class="pf-c-nav__horizontal-list rh-site-header">
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Get Started
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="design-guidelines.html">
+                  Design Guidelines
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Documentation
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Community
+                </a>
+              </li>
+              <li class="pf-c-nav__item">
+                <a class="pf-c-nav__link" href="#">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="pf-c-page__header-tools">
+          <div class="pf-c-page__header-tools-group pf-m-icons pf-screen-reader">
+            <button class="pf-c-button pf-m-plain" aria-label="Alerts">
+              <i class="fas fa-bell" aria-hidden="true"></i>
+            </button>
+            <button class="pf-c-button pf-m-plain" aria-label="Settings">
+              <i class="fas fa-cog" aria-hidden="true"></i>
+            </button>
+          </div>
+          <img class="pf-c-avatar" src="assets/images/img_avatar.svg" alt="Avatar Image" />
+        </div>
+      </header>
       <main role="main" class="pf-c-page__main">
-        <header role="banner" class="pf-c-page__header">
-          <div class="pf-c-page__header-brand">
-            <a href="index.html" class="pf-c-page__header-brand-link">
-              <img class="pf-c-brand" src="assets/images/pf_logo_color.svg" alt="PatternFly logo">
-            </a>
-          </div>
-          <div class="pf-c-page__header-nav">
-            <nav aria-label="Global" class="pf-c-nav" id="horizontal-navigation">
-              <ul class="pf-c-nav__horizontal-list rh-site-header">
-                <li class="pf-c-nav__item">
-                  <a class="pf-c-nav__link" href="#">
-                    Get Started
-                  </a>
-                </li>
-                <li class="pf-c-nav__item">
-                  <a class="pf-c-nav__link" href="design-guidelines.html">
-                    Design Guidelines
-                  </a>
-                </li>
-                <li class="pf-c-nav__item">
-                  <a class="pf-c-nav__link" href="#">
-                    Documentation
-                  </a>
-                </li>
-                <li class="pf-c-nav__item">
-                  <a class="pf-c-nav__link" href="#">
-                    Community
-                  </a>
-                </li>
-                <li class="pf-c-nav__item">
-                  <a class="pf-c-nav__link" href="#">
-                    Blog
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="pf-c-page__header-tools">
-            <img class="pf-c-avatar" src="assets/images/img_avatar.svg" alt="Avatar Image" />
-          </div>
-        </header>
-        <section class="pf-c-page__main-section">
+        <section class="pf-c-page__main-section pf4-c-background-image">
           <div class="pf-c-content">
             <div class="pf-l-grid">
               <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-6-col-on-md pf-m-offset-3-col-on-md pf-u-text-align-center">
                 <img src="assets/images/PF4_logo.svg" alt="PatternFly logo" />
-                <h1 class="pf-c-title pf-m-5xl">Build better experiences with repeatable, scalable design</h1>
-                <h5 class="pf-c-title pf-m-xl">PatternFly 4 is an open source design system built to drive consistency and unify teams.</h5>
+                <h1 class="pf-c-title pf-m-5xl pf-m-white">Build better experiences with repeatable, scalable design</h1>
+                <h5 class="pf-c-title pf-m-xl pf-m-white">PatternFly 4 is an open source design system built to drive consistency and unify teams.</h5>
                 <button class="pf-c-button pf-m-primary">Get Started</button>
                 <button class="pf-c-button pf-m-secondary">Why PatternFly 4</button>
               </div>
@@ -80,21 +91,74 @@
             <div class="pf-l-grid__item pf-m-12-col-on-sm">
               <div class="pf-l-grid">
                 <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-4-col-on-md pf-m-offset-2-col-on-md">
-                  <h3>Make better decisions with clear guidance</h3>
-                  <p>Design guidelines supply the foundation of the system. Get acquainted with our approach to color, content, and more.</p>
-                  <a href="#" class="pf-m-link" alt="view design guidelines">View design guidelines <i class="fas fa-caret-right"></i></a>
-                  <h3>Stay aligned with layouts</h3>
-                  <p>Layouts provide fully responsive page structure that keeps your components organized and aligned regardless of screen size.</p>
-                  <a href="#" class="pf-m-link" alt="view design guidelines">View layouts <i class="fas fa-caret-right"></i></a>
-                  <h3>Start building with components</h3>
-                  <p>Components are like building blocks. Designed to be flexible and modular, you can mix and match to create a solution for almost any UI problem.</p>
-                  <a href="#" class="pf-m-link" alt="view design guidelines">View components <i class="fas fa-caret-right"></i></a>
+                  <div class="pf-u-pb-2xl">
+                    <h3>Make better decisions with clear guidance</h3>
+                    <p>Design guidelines supply the foundation of the system. Get acquainted with our approach to color, content, and more.</p>
+                    <a href="#" class="pf-m-link" alt="view design guidelines">View design guidelines <i class="fas fa-caret-right"></i></a>
+                  </div>
+                  <div class="pf-u-pb-2xl">
+                    <h3>Stay aligned with layouts</h3>
+                    <p>Layouts provide fully responsive page structure that keeps your components organized and aligned regardless of screen size.</p>
+                    <a href="#" class="pf-m-link" alt="view design guidelines">View layouts <i class="fas fa-caret-right"></i></a>
+                  </div>
+                  <div class="pf-u-pb-2xl">
+                    <h3>Start building with components</h3>
+                    <p>Components are like building blocks. Designed to be flexible and modular, you can mix and match to create a solution for almost any UI problem.</p>
+                    <a href="#" class="pf-m-link" alt="view design guidelines">View components <i class="fas fa-caret-right"></i></a>
+                  </div>
+                  <div class="">
+                    <h3>Get inspired with demos</h3>
+                    <p>Explore working examples of common UI elements like forms to see how components and layouts can be combined to solve common design problems.</p>
+                    <a href="#" class="pf-m-link" alt="view design guidelines">View demos <i class="fas fa-caret-right"></i></a>
+                  </div>
+                </div>
+                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-6-col-on-md pf4-c-background-lines">
+                  <div class="pf-l-grid">
+                    <div class="pf-l-grid__item pf-m-all-4-col pf-m-offset-4-col-on-md">
+                      <img src="/assets/images/laptop.svg" width="20%" alt="laptop image" />
+                    </div>
+                    <div class="pf-l-grid__item pf-m-all-4-col pf-m-offset-4-col-on-md">
+                      <img src="/assets/images/phone.svg" width="20%" alt="phone image" />
+                    </div>
+                    <div class="pf-l-grid__item pf-m-all-4-col pf-m-offset-4-col-on-md">
+                      <img src="/assets/images/screen.svg" width="20%" alt="screen image" />
+                    </div>
+                    <div class="pf-l-grid__item pf-m-all-4-col pf-m-offset-4-col-on-md">
+                      <img src="/assets/images/desktop.svg" width="20%" alt="desktop image" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="pf-c-page__main-section pf4-c-background-image-principles pf-c-content">
+          <div class="pf-l-grid pf-m-gutter pf-u-py-3xl">
+            <div class="pf-l-grid__item pf-m-12-col-on-sm">
+              <div class="pf-l-grid pf-m-white">
+                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-m-offset-1-col-on-md">
+                  <h1 class="pf-c-title pf-m-4xl pf-m-white">PatternFly 4 principles</h1>
+                  <h3>Modular and flexible</h3>
+                  <p>Arrange self-contained components in any number of ways to build a variety of applications and interfaces. You can also use the CSS variable system to customize styles across a website or interface.</p>
+
+                  <h3>Accessible</h3>
+                  <p>Take advantage of accessible markup and guidance. Because building applications that work for everyone, regardless of ability, is just the right thing to do.</p>
+
+                  <h3>Built for teams, built to scale</h3>
+                  <p>Unify design and development with a set of guidelines and tools to help streamline communication and build more consistent user experiences.</p>
+
                   <h3>Get inspired with demos</h3>
                   <p>Explore working examples of common UI elements like forms to see how components and layouts can be combined to solve common design problems.</p>
-                  <a href="#" class="pf-m-link" alt="view design guidelines">View demos <i class="fas fa-caret-right"></i></a>
-                </div>
-                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-4-col-on-md">
 
+                  <p>
+                    <a href="#" class="pf-m-link" alt="Get started for developers ">Get started for developers <i class="fas fa-caret-right"></i></a>
+                  </p>
+                  <p>
+                    <a href="#" class="pf-m-link" alt="Get started for designers">Get started for designers <i class="fas fa-caret-right"></i></a>
+                  </p>
+                </div>
+                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-u-text-align-right">
+                  <img src="assets/images/PF4principles.svg" alt="PatternFly 4 principles image" />
                 </div>
               </div>
             </div>

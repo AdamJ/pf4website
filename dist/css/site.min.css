@@ -18381,10 +18381,65 @@ a,
   --pf-c-page__main-section--BackgroundColor: #f8f8f8; }
 
 .pf4-c-background-image {
-  --pf4-c-image--Background: url("../assets/images/hero_background.svg");
+  --pf4-c-image--Background: url("../assets/images/homeHeroLines.svg");
+  width: 100%;
+  height: 100%;
+  background-image: var(--pf4-c-image--Background), linear-gradient(to bottom, #065e8e 0%, #0469a8 25%, #048bc1 75%, #03b9e4 100%);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, right; }
+
+.pf4-c-background-image-principles {
+  background-color: transparent;
   background-image: var(--pf4-c-image--Background);
-  background-size: contain;
+  /* stylelint-disable */
+  /* stylelint-enable */
   background-repeat: no-repeat; }
+  .pf4-c-background-image-principles::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom, #03b9e4, #2767b2);
+    z-index: -1; }
+  @media (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-image-principles {
+      background-image: none; } }
+  @media (min-width: 576px) {
+    .pf4-c-background-image-principles {
+      background-size: contain; } }
+  @media (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-image-principles {
+      background-size: cover; } }
+  @media (min-width: 992px) {
+    .pf4-c-background-image-principles {
+      background-size: cover; } }
+
+.pf4-c-background-lines {
+  --pf4-c-image--Background-lines: url("../assets/images/aboutPF4Lines.svg");
+  background-color: transparent;
+  background-image: var(--pf4-c-image--Background-lines);
+  /* stylelint-disable */
+  /* stylelint-enable */
+  background-repeat: no-repeat; }
+  @media (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-lines {
+      background-image: none; } }
+  @media (min-width: 576px) {
+    .pf4-c-background-lines {
+      background-size: contain; } }
+  @media (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi) {
+    .pf4-c-background-lines {
+      background-size: cover; } }
+  @media (min-width: 992px) {
+    .pf4-c-background-lines {
+      background-size: cover; } }
+
+.pf-m-white,
+.pf-m-white > * {
+  color: #fff !important;
+  /* stylelint-disable-line */ }
 
 .pf-c-page__header {
   background-color: #000; }
