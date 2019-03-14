@@ -36,48 +36,56 @@
 }
 
 .pf4-c-background-image-principles {
-  // --pf4-c-image--Background: url("#{$pf-global--image-path}/homeHeroLines.svg");
+  width: 100%;
+  height: 100%;
+  background-image: url("#{$pf-global--image-path}/PF4PrinciplesLines.svg"), linear-gradient(to bottom, #03b9e4, #2767b2);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, right;
 
-  background-color: transparent;
-  &::after {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to bottom, #03b9e4, #2767b2);
-    z-index: -1;
-  }
+  // background-color: transparent;
+  // &::after {
+  //   position: absolute;
+  //   content: '';
+  //   height: 100%;
+  //   width: 100%;
+  //   top: 0;
+  //   left: 0;
+  //   background: linear-gradient(to bottom, #03b9e4, #2767b2);
+  //   z-index: -1;
+  // }
 
-  background-image: var(--pf4-c-image--Background);
+  // background-image: var(--pf4-c-image--Background);
 
-  /* stylelint-disable */
-  @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
-    (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
-    background-image: none;
-  }
+  // /* stylelint-disable */
+  // @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-image: none;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--sm) {
-    background-size: contain;
-  }
+  // @media (min-width: $pf-global--breakpoint--sm) {
+  //   background-size: contain;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
-    (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
-    background-size: cover;
-  }
+  // @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-size: cover;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--lg) {
-    background-size: cover;
-  }
-  /* stylelint-enable */
-  background-repeat: no-repeat;
+  // @media (min-width: $pf-global--breakpoint--lg) {
+  //   background-size: cover;
+  // }
+  // /* stylelint-enable */
+  // background-repeat: no-repeat;
 }
 
 .pf4-c-background-lines {
-  --pf4-c-image--Background-lines: url("#{$pf-global--image-path}/aboutPF4Lines.svg");
+  width: 100%;
+  height: 100%;
+  background-image: url("#{$pf-global--image-path}/aboutPF4Lines.svg"), linear-gradient(to bottom, #fff, #fff);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, right;
 
-  background-color: transparent;
+  // background-color: transparent;
   // &::after {
   //   position: absolute;
   //   content: '';
@@ -89,26 +97,26 @@
   //   z-index: -1;
   // }
 
-  background-image: var(--pf4-c-image--Background-lines);
+  // background-image: var(--pf4-c-image--Background-lines);
 
-  /* stylelint-disable */
-  @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
-    (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
-    background-image: none;
-  }
+  // /* stylelint-disable */
+  // @media (max-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (max-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-image: none;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--sm) {
-    background-size: contain;
-  }
+  // @media (min-width: $pf-global--breakpoint--sm) {
+  //   background-size: contain;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
-    (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
-    background-size: cover;
-  }
+  // @media (min-width: $pf-global--breakpoint--sm) and (-webkit-min-device-pixel-ratio: 2),
+  //   (min-width: $pf-global--breakpoint--sm) and (min-resolution: 192dpi) {
+  //   background-size: cover;
+  // }
 
-  @media (min-width: $pf-global--breakpoint--lg) {
-    background-size: cover;
-  }
-  /* stylelint-enable */
-  background-repeat: no-repeat;
+  // @media (min-width: $pf-global--breakpoint--lg) {
+  //   background-size: cover;
+  // }
+  // /* stylelint-enable */
+  // background-repeat: no-repeat;
 }

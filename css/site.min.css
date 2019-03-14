@@ -18406,52 +18406,18 @@ a,
       background-size: cover; } }
 
 .pf4-c-background-image-principles {
-  background-color: transparent;
-  background-image: var(--pf4-c-image--Background);
-  /* stylelint-disable */
-  /* stylelint-enable */
-  background-repeat: no-repeat; }
-  .pf4-c-background-image-principles::after {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background: linear-gradient(to bottom, #03b9e4, #2767b2);
-    z-index: -1; }
-  @media (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 576px) and (min-resolution: 192dpi) {
-    .pf4-c-background-image-principles {
-      background-image: none; } }
-  @media (min-width: 576px) {
-    .pf4-c-background-image-principles {
-      background-size: contain; } }
-  @media (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi) {
-    .pf4-c-background-image-principles {
-      background-size: cover; } }
-  @media (min-width: 992px) {
-    .pf4-c-background-image-principles {
-      background-size: cover; } }
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/PF4PrinciplesLines.svg"), linear-gradient(to bottom, #03b9e4, #2767b2);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, right; }
 
 .pf4-c-background-lines {
-  --pf4-c-image--Background-lines: url("../assets/images/aboutPF4Lines.svg");
-  background-color: transparent;
-  background-image: var(--pf4-c-image--Background-lines);
-  /* stylelint-disable */
-  /* stylelint-enable */
-  background-repeat: no-repeat; }
-  @media (max-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (max-width: 576px) and (min-resolution: 192dpi) {
-    .pf4-c-background-lines {
-      background-image: none; } }
-  @media (min-width: 576px) {
-    .pf4-c-background-lines {
-      background-size: contain; } }
-  @media (min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi) {
-    .pf4-c-background-lines {
-      background-size: cover; } }
-  @media (min-width: 992px) {
-    .pf4-c-background-lines {
-      background-size: cover; } }
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/images/aboutPF4Lines.svg"), linear-gradient(to bottom, #fff, #fff);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top right, right; }
 
 .pf-m-white,
 .pf-m-white > * {
