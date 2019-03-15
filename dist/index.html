@@ -11,6 +11,9 @@
   </head>
 
   <body>
+    <div role="alert">
+      Visit Patternfly 3
+    </div>
     <div class="pf-c-page pf-u-h-100vh">
       <a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">
         Skip to content
@@ -58,18 +61,10 @@
           </nav>
         </div>
         <div class="pf-c-page__header-tools">
-          <div class="pf-c-page__header-tools-group pf-m-icons pf-screen-reader">
-            <button class="pf-c-button pf-m-plain" aria-label="Alerts">
-              <i class="fas fa-bell" aria-hidden="true"></i>
-            </button>
-            <button class="pf-c-button pf-m-plain" aria-label="Settings">
-              <i class="fas fa-cog" aria-hidden="true"></i>
-            </button>
-          </div>
           <img class="pf-c-avatar" src="assets/images/img_avatar.svg" alt="Avatar Image" />
         </div>
       </header>
-      <main role="main" class="pf-c-page__main">
+      <main role="main" id="main-content" class="pf-c-page__main">
         <section class="pf-c-page__main-section pf4-c-background-image">
           <div class="pf-c-content">
             <div class="pf-l-grid">
@@ -77,8 +72,8 @@
                 <img src="assets/images/PF4_logo.svg" alt="PatternFly logo" />
                 <h1 class="pf-c-title pf-m-5xl pf-m-white">Build better experiences with repeatable, scalable design</h1>
                 <h5 class="pf-c-title pf-m-xl pf-m-white">PatternFly 4 is an open source design system built to drive consistency and unify teams.</h5>
-                <button class="pf-c-button pf-m-primary">Get Started</button>
-                <button class="pf-c-button pf-m-secondary">Why PatternFly 4</button>
+                <button class="pf4-c-button-cta pf4-m-heavy">Get Started</button>
+                <button class="pf4-c-button-cta pf4-m-outline">Why PatternFly 4</button>
               </div>
             </div>
           </div>
@@ -99,22 +94,22 @@
                   <div class="pf-u-pb-2xl">
                     <h3>Make better decisions with clear guidance</h3>
                     <p>Design guidelines supply the foundation of the system. Get acquainted with our approach to color, content, and more.</p>
-                    <a href="#" class="pf-m-link" alt="view design guidelines">View design guidelines <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-u-pl-0" aria-label="view design guidelines">View design guidelines <i class="fas fa-caret-right"></i></a>
                   </div>
                   <div class="pf-u-pb-2xl">
                     <h3>Stay aligned with layouts</h3>
                     <p>Layouts provide fully responsive page structure that keeps your components organized and aligned regardless of screen size.</p>
-                    <a href="#" class="pf-m-link" alt="view design guidelines">View layouts <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-u-pl-0" aria-label="view design guidelines">View layouts <i class="fas fa-caret-right"></i></a>
                   </div>
                   <div class="pf-u-pb-2xl">
                     <h3>Start building with components</h3>
                     <p>Components are like building blocks. Designed to be flexible and modular, you can mix and match to create a solution for almost any UI problem.</p>
-                    <a href="#" class="pf-m-link" alt="view design guidelines">View components <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-u-pl-0" aria-label="view design guidelines">View components <i class="fas fa-caret-right"></i></a>
                   </div>
                   <div class="">
                     <h3>Get inspired with demos</h3>
                     <p>Explore working examples of common UI elements like forms to see how components and layouts can be combined to solve common design problems.</p>
-                    <a href="#" class="pf-m-link" alt="view design guidelines">View demos <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-u-pl-0" aria-label="view design guidelines">View demos <i class="fas fa-caret-right"></i></a>
                   </div>
                 </div>
                 <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-6-col-on-md">
@@ -137,29 +132,26 @@
             </div>
           </div>
         </section>
-        <section class="pf-c-page__main-section pf4-c-background-image-principles pf-c-content">
+        <section class="pf-c-page__main-section pf-m-dark-200 pf4-c-background-image-principles pf-c-content">
           <div class="pf-l-grid pf-m-gutter pf-u-py-3xl">
             <div class="pf-l-grid__item pf-m-12-col-on-sm">
               <div class="pf-l-grid pf-m-white">
                 <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-m-offset-1-col-on-md">
                   <h1 class="pf-c-title pf-m-4xl pf-m-white">PatternFly 4 principles</h1>
                   <h3>Modular and flexible</h3>
-                  <p>Arrange self-contained components in any number of ways to build a variety of applications and interfaces. You can also use the CSS variable system to customize styles across a website or interface.</p>
+                  <p class="pf-u-mb-3xl">Arrange self-contained components in any number of ways to build a variety of applications and interfaces. You can also use the CSS variable system to customize styles across a website or interface.</p>
 
                   <h3>Accessible</h3>
-                  <p>Take advantage of accessible markup and guidance. Because building applications that work for everyone, regardless of ability, is just the right thing to do.</p>
+                  <p class="pf-u-mb-3xl">Take advantage of accessible markup and guidance. Because building applications that work for everyone, regardless of ability, is just the right thing to do.</p>
 
                   <h3>Built for teams, built to scale</h3>
-                  <p>Unify design and development with a set of guidelines and tools to help streamline communication and build more consistent user experiences.</p>
-
-                  <h3>Get inspired with demos</h3>
-                  <p>Explore working examples of common UI elements like forms to see how components and layouts can be combined to solve common design problems.</p>
+                  <p class="pf-u-mb-2xl">Unify design and development with a set of clear guidelines and tools to help streamline communication and build more consistent user experiences.</p>
 
                   <p>
-                    <a href="#" class="pf-m-link" alt="Get started for developers ">Get started for developers <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-m-white pf-u-pl-0" aria-label="Get started for developers">Get started for developers <i class="fas fa-caret-right"></i></a>
                   </p>
                   <p>
-                    <a href="#" class="pf-m-link" alt="Get started for designers">Get started for designers <i class="fas fa-caret-right"></i></a>
+                    <a href="#" class="pf4-c-button pf4-m-link pf-m-white pf-u-pl-0" aria-label="Get started for designers">Get started for designers <i class="fas fa-caret-right"></i></a>
                   </p>
                 </div>
                 <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-u-text-align-right">
@@ -175,38 +167,38 @@
               <div class="pf-l-grid">
                 <div class="pf-l-grid__item pf-m-4-col">
                   <h5 class="pf-c-title pf-m-sm pf-m-white">QUICKLINKS</h5>
-                  <nav class="pf-c-nav" aria-label="Global">
+                  <nav class="pf-c-nav" aria-label="Quick links">
                     <ul class="pf-c-nav__list-footer">
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Get started</a>
+                        <a href="#" aria-label="Get started with PatternFly 4" class="pf-c-nav__link pf-m-white">Get started</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Components</a>
+                        <a href="#" aria-label="PatternFly 4 components" class="pf-c-nav__link pf-m-white">Components</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Layouts</a>
+                        <a href="#" aria-label="PatternFly 4 layouts" class="pf-c-nav__link pf-m-white">Layouts</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Styles</a>
+                        <a href="#" aria-label="PatternFly 4 styles" class="pf-c-nav__link pf-m-white">Styles</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">PatternFly 3</a>
+                        <a href="#" aria-label="View PatternFly 3 website" class="pf-c-nav__link pf-m-white">PatternFly 3</a>
                       </li>
                     </ul>
                   </nav>
                 </div>
                 <div class="pf-l-grid__item pf-m-4-col">
                   <h5 class="pf-c-title pf-m-sm pf-m-white">CONTRIBUTE</h5>
-                  <nav class="pf-c-nav" aria-label="Global">
+                  <nav class="pf-c-nav" aria-label="Contribute Links">
                     <ul class="pf-c-nav__list-footer">
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Designers</a>
+                        <a href="#" aria-label="How to contribute as a Designer" class="pf-c-nav__link pf-m-white">Designers</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Developers</a>
+                        <a href="#" aria-label="How to contribute as a Developer" class="pf-c-nav__link pf-m-white">Developers</a>
                       </li>
                       <li class="pf-c-nav__item">
-                        <a href="#" class="pf-c-nav__link pf-m-white">Code of conduct</a>
+                        <a href="#" aria-label="PatternFly 4 Code of Conduct" class="pf-c-nav__link pf-m-white">Code of conduct</a>
                       </li>
                     </ul>
                   </nav>
@@ -220,9 +212,9 @@
                   <p class="pf-m-white pf-u-pb-lg">
                     PatternFly is an open source design system that was created to enable consistency and usability across a wide range of applications and use cases.
                   </p>
-                  <a href="https://www.facebook.com/PatternFly" alt="Link to PatternFly Facebook page"><i class="fab fa-facebook pf-m-white"></i></a>
-                  <a href="https://www.github.com/patternfly" alt="Link to PatternFly GitHub page"><i class="fab fa-github pf-m-white"></i></a>
-                  <a href="https://www.twitter.com/PatternFly" alt="Link to PatternFly Twitter page"><i class="fab fa-twitter pf-m-white"></i></a>
+                  <a href="https://www.facebook.com/groups/PatternFlyCommunity/" target="top" aria-label="Link to PatternFly Facebook page"><i class="fab fa-facebook"></i></a>
+                  <a href="https://github.com/patternfly/patternfly" target="top" aria-label="Link to PatternFly GitHub page"><i class="fab fa-github"></i></a>
+                  <a href="https://twitter.com/patternfly_des" target="top" aria-label="Link to PatternFly Twitter page"><i class="fab fa-twitter"></i></a>
                 </div>
               </div>
             </div>
@@ -237,9 +229,9 @@
               Copyright &copy;2019 Red Hat, Inc.
             </div>
             <div class="pf-l-grid__item pf-m-3-col-on-md">
-              <a href="#" alt="Privacy Statement">Privacy Statement</a>
-              <a href="#" alt="Terms of use">Terms of use</a>
-              <a href="#" alt="All policies and guidelines">All policies and guidelines</a>
+              <a href="https://www.redhat.com/en/about/privacy-policy" aria-label="Privacy Statement">Privacy Statement</a>
+              <a href="Terms of use" aria-label="Terms of use">Terms of use</a>
+              <a href="https://www.redhat.com/en/about/all-policies-guidelines" aria-label="All policies and guidelines">All policies and guidelines</a>
             </div>
           </div>
         </footer>

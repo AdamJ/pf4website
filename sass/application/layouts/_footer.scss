@@ -3,6 +3,7 @@
   &-column {
     background: #333;
     a {
+      @extend .pf-m-white;
       margin-right: 32px;
       &:last-of-type {
         margin-right: 0;

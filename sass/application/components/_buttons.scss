@@ -1,0 +1,49 @@
+.pf4-c-button-cta {
+  margin: .25rem .5rem;
+  padding: 12px 24px;
+  white-space: normal;
+  word-wrap: break-word;
+  font-size: 1rem;
+  transition: background .2s ease-in 0s;
+
+  &.pf4-m-heavy {
+    background-color: $pf-color-white;
+    background-image: none;
+    border: 1px solid $pf-color-white;
+    color: #06c;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.44;
+    &:hover {
+      background-color: #06c;
+      border-color: #06c;
+      color: $pf-color-white;
+    }
+  }
+
+  &.pf4-m-outline {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid $pf-color-white;
+    color: $pf-color-white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.44;
+    &:hover {
+      background-color: $pf-color-white;
+      color: #252527;
+    }
+  }
+}
+.pf4-c-button {
+  @extend .pf-c-button;
+  &.pf4-m-link {
+    @extend .pf-m-link;
+    &.pf-m-white {
+      @extend .pf-m-white;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
