@@ -2,3 +2,14 @@
 .pf-m-white > * {
   color: #fff !important; /* stylelint-disable-line */
 }
+
+@media (max-width: $pf-global--breakpoint--sm) {
+  #{$block}-hide-on-mobile {
+    display: none;
+  }
+}
+@media (min-width: $pf-global--breakpoint--md) {
+  #{$block}-hide-on-desktop {
+    display: none;
+  }
+}

@@ -1,0 +1,15 @@
+.pf4-c-page {
+  grid-template-rows: max-content max-content 1fr;
+  grid-template-areas:
+    'banner'
+    'header'
+    'main';
+
+  @media (min-width: $pf-global--breakpoint--md) {
+    grid-template-columns: max-content max-content 1fr;
+    grid-template-areas:
+      'banner banner'
+      'header header'
+      'nav main';
+  }
+}

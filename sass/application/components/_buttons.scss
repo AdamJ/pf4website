@@ -1,43 +1,48 @@
-.pf4-c-button-cta {
+#{$block}-c-button-cta {
   margin: .25rem .5rem;
   padding: 12px 24px;
   white-space: normal;
   word-wrap: break-word;
+  border-radius: 3px;
   font-size: 1rem;
-  transition: background .2s ease-in 0s;
+  transition: .4s;
+  transition-delay: 0s;
+  transition-timing-function: ease;
+  border-style: solid;
+  border-width: 2px;
 
-  &.pf4-m-heavy {
-    background-color: $pf-color-white;
-    background-image: none;
-    border: 1px solid $pf-color-white;
+  &#{$block}-m-heavy {
+    background: $pf-color-white;
+    border-color: $pf-color-white;
     color: #06c;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.44;
     &:hover {
-      background-color: #06c;
+      background: #06c;
       border-color: #06c;
       color: $pf-color-white;
     }
   }
 
-  &.pf4-m-outline {
+  &#{$block}-m-outline {
     background-color: transparent;
     background-image: none;
-    border: 1px solid $pf-color-white;
+    border-color: $pf-color-white;
     color: $pf-color-white;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.44;
     &:hover {
-      background-color: $pf-color-white;
-      color: #252527;
+      background: #fff;
+      border-color: #fff;
+      color: #06c;
     }
   }
 }
-.pf4-c-button {
+#{$block}-c-button {
   @extend .pf-c-button;
-  &.pf4-m-link {
+  &#{$block}-m-link {
     @extend .pf-m-link;
     &.pf-m-white {
       @extend .pf-m-white;

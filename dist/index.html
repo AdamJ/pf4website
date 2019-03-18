@@ -11,11 +11,14 @@
   </head>
 
   <body>
-    <div class="pf-u-display-flex pf-u-justify-content-center pf-u-align-items-center" role="alert">
+    <!-- <div class="pf-u-display-flex pf-u-justify-content-center pf-u-align-items-center" role="alert">
       <p class="pf-u-my-sm">
-        Looking for PatternFly 3? All documentation and code examples are still available. <a class="pf-c-button pf-m-link" aria-label="Go to the PatternFly 3 site">Go to PatternFly 3 <i class="fas fa-caret-right"></i></a>
+        <span class="pf4-hide-on-mobile">Looking for PatternFly 3? All documentation and code examples are still available.</span> <a class="pf-c-button pf-m-link" aria-label="Go to the PatternFly 3 site">Go to PatternFly 3 <i class="fas fa-caret-right"></i></a>
+        <a href="#" aria-label="hide banner">
+          <i class="fas fa-times pf-u-ml-xl" style="color: #72767b;"></i>
+        </a>
       </p>
-    </div>
+    </div> -->
     <div class="pf-c-page pf-u-h-100vh">
       <a class="pf-c-skip-to-content pf-c-button pf-m-primary" href="#main-content">
         Skip to content
@@ -26,9 +29,11 @@
             <img class="pf-c-brand" src="assets/images/pf_logo_color.svg" alt="PatternFly logo">
           </a>
         </div>
-        <div class="pf-c-page__header-nav">
+        <div class="pf4-hide-on-desktop">
+        </div>
+        <div class="pf-c-page__header-nav pf4-hide-on-mobile">
           <nav aria-label="Global" class="pf-c-nav" id="horizontal-navigation">
-            <ul class="pf-c-nav__horizontal-list rh-site-header">
+            <ul class="pf-c-nav__horizontal-list pf4-site-header">
               <li class="pf-c-nav__item">
                 <a class="pf-c-nav__link" href="#">
                   Get Started
@@ -156,7 +161,7 @@
                     <a href="#" class="pf4-c-button pf4-m-link pf-m-white pf-u-pl-0" aria-label="Get started for designers">Get started for designers <i class="fas fa-caret-right"></i></a>
                   </p>
                 </div>
-                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-u-text-align-right">
+                <div class="pf-l-grid__item pf-m-12-col-on-sm pf-m-5-col-on-md pf-u-text-align-right pf-u-mt-lg pf-u-mt-0-on-sm">
                   <img src="assets/images/PF4principles.svg" alt="PatternFly 4 principles image" />
                 </div>
               </div>
@@ -165,9 +170,9 @@
         </section>
         <section class="pf-c-page__main-section pf4-l-footer">
           <div class="pf-l-grid pf-u-py-xl-on-sm pf-u-py-0-on-md">
-            <div class="pf-l-grid__item pf-m-5-col-on-md pf-m-offset-1-col-on-md">
+            <div class="pf-l-grid__item pf-m-5-col-on-md pf-m-offset-1-col-on-md pf-u-mb-lg pf-u-mb-0-on-sm">
               <div class="pf-l-grid">
-                <div class="pf-l-grid__item pf-m-4-col">
+                <div class="pf-l-grid__item pf-m-6-col pf-m-4-col-on-sm">
                   <h5 class="pf-c-title pf-m-sm pf-m-white">QUICKLINKS</h5>
                   <nav class="pf-c-nav" aria-label="Quick links">
                     <ul class="pf-c-nav__list-footer">
@@ -189,7 +194,7 @@
                     </ul>
                   </nav>
                 </div>
-                <div class="pf-l-grid__item pf-m-4-col">
+                <div class="pf-l-grid__item pf-m-6-col pf-m-4-col-on-sm">
                   <h5 class="pf-c-title pf-m-sm pf-m-white">CONTRIBUTE</h5>
                   <nav class="pf-c-nav" aria-label="Contribute Links">
                     <ul class="pf-c-nav__list-footer">

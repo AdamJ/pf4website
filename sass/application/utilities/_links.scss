@@ -2,4 +2,7 @@ a,
 .pf-m-link,
 .pf-c-button.pf-m-link {
   font-weight: 700;
+  &:hover {
+    text-decoration: underline;
+  }
 }

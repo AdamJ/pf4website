@@ -1,4 +1,4 @@
-.pf4-l-footer {
+#{$block}-l-footer {
   background: #252525;
   &-column {
     background: #333;
@@ -11,7 +11,7 @@
     }
   }
 }
-.pf4-l-footer-dark {
+#{$block}-l-footer-dark {
   background: #1a1a1a;
   & > * {
     color: #d2d2d2;
